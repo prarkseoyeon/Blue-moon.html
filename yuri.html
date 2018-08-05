@@ -19,22 +19,30 @@
     font-size: 20px;
     line-height: 2;
   }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
   </style>
 </head>
 <body>
   <h1><a href="1.html">청년회 문화부 영상과</a></h1>
-  <ol>
-    <li><a href="suyeong.html">박수영</a></li>
-    <li><a href="seopark.html">박서연</a></li>
-    <li><a href="yuri.html">장유리</a></li>
-    <li><a href="moon.html">고문정</a></li>
-  </ol>
-  <h2>장팀장</h2>
-  <img src="yuri.jpg" width="300">
-  <img src="yuri2.jpg" width="300">
+<div id="grid">
+    <ol>
+      <li><a href="suyeong.html">박수영</a></li>
+      <li><a href="seopark.html">박서연</a></li>
+      <li><a href="yuri.html">장유리</a></li>
+      <li><a href="moon.html">고문정</a></li>
+    </ol>
+  <div>
+    <h2>장팀장</h2>
+    <img src="yuri.jpg" width="300">
+    <img src="yuri2.jpg" width="300">
 
-  <p> 대표작 : 오늘의말씀
-    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/iEGG6HfUyns" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </p>
+    <p> 대표작 : 오늘의말씀
+      <p><iframe width="560" height="315" src="https://www.youtube.com/embed/iEGG6HfUyns" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </p>
+  </div>
+</div>
 </body>
 </html>
